@@ -1,6 +1,6 @@
 .align-page {
     display: grid;
-    justify-content: center;
+    justify-items: center;
 }
 
 .main-desktop { 
@@ -12,9 +12,9 @@
 }
 
 .main-header .logoHeader {   
-    margin-top: 3.75em;
-    margin-left: 5em;
-    width: 12.5em;
+    margin-top: 60px;
+    margin-left: 80px;
+    width: 200px;
 }
 
 .main-section {
@@ -22,52 +22,55 @@
 }
 
 .sectionImg {
-    margin-top: 5em;
-    margin-left: 5em;
-    width: 43.5em;
+    margin-top: 80px;
+    margin-left: 80px;
+    width: 696px;
 }
 
 .sectionText.-firstText {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     color: #fff;
     margin-top: 18%;
-    margin-left: 3.75rem;
-    line-height: 3.75rem;
+    margin-left: 58px;
+    line-height: 18px;
+    line-height: 60px;
     margin-right: 10%;
 }
 
 .sectionText.-secondText {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 1.13em;
-    margin-top: 1.5em;
-    line-height: 1.60em ;
-    margin-left: 3.75em;
-    margin-right: 5.31em;
+    font-size: 1.125rem;
+    margin-top: 24px;
+    line-height: 27px ;
+    margin-left: 59px;
+    margin-right: 85px;
     margin-bottom: 0;
     color: #fff;
 }
 
 .section-btn {
-    margin-left: 3.75em;
-    margin-top: 1.5em;
-    border: 0;
-    width: 12.5em;
-    height: 3.5em;
-    border-radius: 1.75em;
+    margin-left: 59px;
+    margin-top: 24px;
+    border: 0
+    ;
+    width: 200px;
+    height: 56px;
+    border-radius: 28px;
     background-color: #FFFFFF;
     box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
-    transition: transform 200ms linear;
+    transition: transform 100ms linear;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.125em;
+    font-size: 1.125rem;
     color: #684BB1;
 }
 
 .section-btn:hover {
     transform: scale(1.08);
+    opacity: 0.96;
     background-color: #E880E8;
     color: white;
 }
@@ -77,14 +80,14 @@
 }
 
 .section-wrapperSocial {
-    margin-right: 4.375em;
+    margin-right: 70px;
 }
 
 .wrapperSocial {
     display: flex;
     justify-content: flex-end;
-    padding-right: 1em;
-    padding-bottom: 1.875em;
+    padding-right: 16px;
+    padding-bottom: 30px;
     transition: transform 100ms linear;     
 }
 
@@ -98,9 +101,8 @@
 }
 
 .main-footer {
-     font-size: 0.7em;
-     text-align: center; 
-     align-content: flex-end;
+     font-size: 0.7rem;
+     text-align: center;     
 }
 
 .main-footer .linkFooter {
