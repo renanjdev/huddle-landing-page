@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/components/reset.css">
+    <link rel="stylesheet" href="css/components/style.css">
+  </head>
+  <body>
+    <main class="main-desktop">
+      <header class="main-header">
+        <img class="logoHeader" src="images/logo.svg" alt="Logo Hiddle">
+      </header>  
+      
+      <section class="main-section"> 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+        <div class="sectionImg">
+          <img src="images/illustration-mockups.png" alt="Illustration MockUps">
+        </div>
+        
+        <div class="sectionText">
+          <h1 class="sectionText -firstText">Build The Community Your Fans Will Love</h1>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+          <p class="sectionText -secondText">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engaje in genuine discussion.</p>
 
-  Build The Community Your Fans Will Love
+          <a href="#"><button class="section-btn">Register</button></a>
+        </div>
+      </section>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
-  Create connections with your users as you engage in genuine discussion. 
+      <section class="section-wrapperSocial">
+        <div class="wrapperSocial">
+            <a class="wrapperSocial -ico" href="#"><img src="./images/ico_facebook.png" alt=""></a>
+            <a class="wrapperSocial -ico" href="#"><img src="images/ico_twitter.png" alt=""></a>
+            <a class="wrapperSocial -ico" href="#"><img src="images/ico_insta.png" alt=""></a>
+        </div>
+      </section>
+    </main>  
 
-  Register
+    <footer class="main-footer">
+      <p>
+        Challenge by <a class="linkFooter" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a class="linkFooter" href="https://github.com/renanjdev">Renan Januário</a>.
+      </p>
+    </footer>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+  </body>
 </html>
