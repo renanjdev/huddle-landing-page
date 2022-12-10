@@ -1,3 +1,8 @@
+.align-page {
+    display: grid;
+    justify-content: center;
+}
+
 .main-desktop { 
     background-image: url(../../images/bg-desktop.svg);
     background-repeat: no-repeat;
@@ -49,7 +54,8 @@
 .section-btn {
     margin-left: 59px;
     margin-top: 24px;
-    border: 0;
+    border: 0
+    ;
     width: 200px;
     height: 56px;
     border-radius: 28px;
